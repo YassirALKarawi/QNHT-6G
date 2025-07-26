@@ -1,47 +1,75 @@
-# 🧠🔒 QNHT Framework for 6G Quantum Neural Synchronization
+# QNHT-6G: Quantum Neural Holographic Teleportation for 6G Distributed Systems
 
-This repository implements the core algorithms and simulation tools from the paper:
+[![Qiskit Simulated](https://img.shields.io/badge/Qiskit-Simulated-blue)](https://qiskit.org/)
+[![IEEE TNSM Submission](https://img.shields.io/badge/IEEE--TNSM-Submitted-orange)]()
+[![Open Access](https://img.shields.io/badge/Open--Access-Available-green)]()
 
-**"Synchronization and Control of Entangled Quantum Neural Networks for Holographic Communication in 6G Distributed Systems"**
+## 📘 Project Overview
+
+This repository accompanies the research paper titled:  
+**"Quantum Neural Synchronization and Holographic Teleportation for Distributed 6G Systems"**, submitted to *IEEE Transactions on Network and Service Management (TNSM)*.
+
+The proposed framework integrates:
+
+- ✅ Entangled Quantum Neural Networks (QNNs)
+- ✅ GHZ-based multipartite synchronization
+- ✅ RIS-controlled teleportation over quantum-classical midhaul
+- ✅ Fidelity, entropy, and latency evaluations via Qiskit simulations
 
 ---
 
-## 📁 Contents
-
-- `algorithms/`: Core Python implementations
-  - `QNS.py`: Quantum Neural Synchronization (GHZ-based)
-  - `HTP.py`: Bell-State Quantum Teleportation
-  - `JOL.py`: Joint Optimization Loop (QNS + HTP + RIS)
-- `main_simulation.ipynb`: Jupyter Notebook demo (run this first)
-- `results/`: Output figures
-  - `fidelity_over_runs.png`: Fidelity over multiple teleportation runs
-
----
-
-## ▶️ Usage
-
-To run the main experiment:
+## 📁 Repository Structure
 
 ```bash
-pip install qiskit matplotlib
+QNHT-6G/
+├── algorithms/              # Python scripts for HTP, JOL, and QNS algorithms
+├── circuits/                # Qiskit-based teleportation and entanglement circuits
+├── results/                 # Output plots (fidelity, entropy, synchronization error)
+├── main_simulation.ipynb   # Main simulation notebook
+├── requirements.txt         # List of Python dependencies
+└── README.md                # This documentation file
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YassirALKarawi/QNHT-6G.git
+cd QNHT-6G
+```
+
+### 2. Create environment and install requirements
+```bash
+python -m venv qnht_env
+source qnht_env/bin/activate  # or `qnht_env\Scripts\activate` on Windows
+pip install -r requirements.txt
+```
+
+### 3. Run the Simulation
+```bash
 jupyter notebook main_simulation.ipynb
 ```
 
 ---
 
-## 📊 Sample Output
+## 🔬 Citation
 
-![Fidelity over 10 runs](results/fidelity_over_runs.png)
+If you use this work in your research, please cite:
+
+```
+@article{al-karawi2025qnht,
+  author    = {Yassir Al-Karawi},
+  title     = {Quantum Neural Synchronization and Holographic Teleportation for Distributed 6G Systems},
+  journal   = {IEEE Transactions on Network and Service Management},
+  year      = {2025},
+  note      = {Submitted},
+}
+```
 
 ---
 
-## 🔬 Paper Citation (IEEE TNSE)
+## 📄 License
 
-> Al-Karawi, Y., et al. “Synchronization and Control of Entangled Quantum Neural Networks for Holographic Communication in 6G Distributed Systems,” IEEE Transactions on Network Science and Engineering, 2025.
-
----
-
-## 📘 License
-
-This repository is for academic research and educational use. All rights reserved.
-
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
