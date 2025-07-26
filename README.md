@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 ![IEEE TNSE Submission](https://img.shields.io/badge/IEEE--TNSE-Submitted-blue)
 ![Qiskit Simulated](https://img.shields.io/badge/Qiskit-Simulated-success)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Open Access](https://img.shields.io/badge/Open--Access-Available-brightgreen)
 
 
+=======
+>>>>>>> 8d5596b39097a683c482a37a3c82e467ad192672
 # QNHT-6G: Quantum Neural Holographic Teleportation for 6G Distributed Systems
 
 [![Qiskit Simulated](https://img.shields.io/badge/Qiskit-Simulated-blue)](https://qiskit.org/)
