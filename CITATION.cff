@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as follows:"
+title: "Quantum Neural Synchronization for Holographic Teleportation in Distributed 6G Networks"
+authors:
+  - family-names: Al-Karawi
+    given-names: Yassir
+    orcid: https://orcid.org/0000-0003-2959-3893
+    affiliation: "Brunel University of London, UK"
+date-released: 2025-07-26
+doi: 10.5281/zenodo.1234567
+url: https://github.com/YassirALKarawi/QNHT-6G
+version: "1.0"
+license: MIT
